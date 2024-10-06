@@ -213,6 +213,11 @@
                args)
         {:keys [find in] :as query-map} (query-vec->map query)
         actual-args (into [] (or (seq args) (:default-args query-m)))
+        actual-args (mapv (fn [arg]
+                              (if (re-matches #"\d+" arg)
+                                (js/parseInt arg 10)
+                                arg))
+                            actual-args)
         _ (validate-args actual-args in)
         rules (get-rules-in-query query-map)
         q-args (conj actual-args rules)]
