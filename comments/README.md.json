@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "comments": [
+    {
+      "author": {
+        "login": "zh3036",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5772057?v=4"
+      },
+      "anchor": {
+        "selectedText": "Usage",
+        "prefix": "`lq` from npm:\n\n`npm install logseq-query -g`\n\n## ",
+        "suffix": "\n\n_Note_: This section assumes basic familiarity w",
+        "startOffset": 441,
+        "endOffset": 446,
+        "commitSha": "d4aacd3666c557918b47ec56732e0c9b2bd14236"
+      },
+      "body": "test fork comment",
+      "id": "dfd8c6fb-6b55-4f45-a7ed-e3c2fe86ec83",
+      "createdAt": "2026-03-05T15:47:03.309Z",
+      "resolved": false,
+      "replies": []
+    }
+  ],
+  "metadata": {
+    "repo": "zh3036/logseq-query",
+    "branch": "main",
+    "filePath": "README.md",
+    "url": "https://md-comment.fly.dev/zh3036/logseq-query/blob/main/README.md"
+  }
+}
